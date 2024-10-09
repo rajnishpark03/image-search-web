@@ -2,7 +2,7 @@ const accesKey = "W1qwWo4IACpJbzZwHt5jqh9Rv0UpcQ5JAnweev7bFoc";
 const apiUrl = "https://api.unsplash.com/photos/random";
 const imageContainer = document.getElementById("imageContainer");
 
-document.getElementById("searchImages").addEventListener("click"&&"press", () => {
+document.getElementById("searchImages").addEventListener("click", () => {
     const searchQuery = document.getElementById("imageNameInput").value.trim();
 
     if (searchQuery === "") {
